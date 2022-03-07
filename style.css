@@ -387,3 +387,21 @@ ul {
     justify-content: center;
   }
 }
+
+@media screen and (max-width: 600px) {
+  #preview {
+    width: 295px;
+    border: 1.5px solid #17a2b8;
+    background-color: var(--previewBg);
+    padding: 15px;
+    position: relative;
+    top: 13px;
+    left: 15px;
+  }
+
+  .right-column {
+    grid-area: right-column;
+    display: block;
+    padding-bottom: 80px;
+  }
+}
